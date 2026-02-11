@@ -37,7 +37,7 @@ h1 {
 
 .secondpage {
     padding: 10px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     flex-direction: row
 
 }
@@ -64,13 +64,18 @@ h1 {
 }
 
 .thirdpagequote {
+    color: grey;
     display: flex;
     justify-content: center;
-    margin-top: 50px; color: 1F2937;
+    margin-top: 50px; 
+    font-size: 36px;
 }
 
 .thirdpagecredit {
+    color: darkslategrey;
     display: flex;
+    font-size: 20px;
+    align-items: end;
 }
 
 .lastpage {
@@ -83,5 +88,31 @@ button {
     background-color: #3992F6;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+.lastpage {
+    margin: 50px;
+    flex-direction: column
+}
+
+body {
+    background-color: white;
+}
+
+.lastpagetext {
+     color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lastpagebutton {
+    display: flex;
+    color: #e5e7eb;
+    background-color: #3992F6;
+    padding-top: 5px;
+    padding-bottom: 32px;
     border-radius: 8px;
 }
