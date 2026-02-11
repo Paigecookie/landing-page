@@ -5,6 +5,16 @@
     margin: -10px;
 }
 
+.lastpagebutton {
+    border-color: white;
+    display: flex;
+    color: #e5e7eb;
+    background-color: #3992F6;
+    padding-top: 5px;
+    padding-bottom: 32px;
+    border-radius: 8px;
+}
+
 .topheader {
     color: aliceblue;
     display: flex;
@@ -108,11 +118,3 @@ body {
     margin-top: 50px;
 }
 
-.lastpagebutton {
-    display: flex;
-    color: #e5e7eb;
-    background-color: #3992F6;
-    padding-top: 5px;
-    padding-bottom: 32px;
-    border-radius: 8px;
-}
